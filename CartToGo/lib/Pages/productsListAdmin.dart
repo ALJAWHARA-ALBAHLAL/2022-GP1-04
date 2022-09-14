@@ -560,7 +560,7 @@ class _ProductsListAdmin extends State<ProductsListAdmin> {
     await ref1.update({
       "Quantity": int.tryParse(second.text),
       "Price": double.tryParse(third.text),
-      "Location": zero.text,
+      "Location": zero.text, // بعدل الدايلوق
     });
     second.clear();
     third.clear();

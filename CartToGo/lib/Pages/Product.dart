@@ -7,6 +7,7 @@ class Product {
   //final int Quantity;
   final String Size;
   final String Barcode;
+
   final String Location;
 
 

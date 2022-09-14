@@ -3,6 +3,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_database/firebase_database.dart';
 
+//لاني اندرويد مايطلع نتيجة باقي احد يتأكد انه يبحث
+
 class NameSearch extends SearchDelegate<String> {
   final List<String> names;
 

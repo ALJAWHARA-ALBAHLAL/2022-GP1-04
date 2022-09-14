@@ -59,7 +59,7 @@ class AddNewProductState extends State<AddNewProduct> {
                     child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: <Widget>[
-                          // الباركود نمبر
+                          // الباركود نمبر راح يكتبه؟
                           Directionality(
                             textDirection: TextDirection.rtl,
                             child: TextFormField(
